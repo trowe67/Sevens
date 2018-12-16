@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">  
+  
+
+    <PreferenceCategory  
+
+         android:title="Preferences" 
+
+         android:key="prefs">  
+
+          <ListPreference  
+             android:key="Difficulty" 
+             android:title="Game Difficulty" 
+             android:summary="Set Game Difficulty" 
+             android:defaultValue="0"  
+             android:entries="@array/difficulty" 
+             android:entryValues="@array/difficultyvalues" 
+         />
+          
+          <ListPreference  
+             android:key="LoseScore" 
+             android:title="Game Over Score" 
+             android:summary="Set end game score" 
+             android:defaultValue="0"  
+             android:entries="@array/losescore" 
+             android:entryValues="@array/losescorevalues" 
+         />          
+                         
+         <CheckBoxPreference  
+             android:key="DisplayBigCards" 
+             android:summaryOn="Display large cards"
+             android:summaryOff="Display normal cards" 
+             android:title="Large Card Display"  
+             android:defaultValue="false" 
+         /> 
+         
+         <CheckBoxPreference  
+             android:key="DisplayPlayableCards" 
+             android:summaryOn="Raise playable cards"
+             android:summaryOff="Don't raise playable Cards" 
+             android:title="Playable Card Display"  
+             android:defaultValue="false" 
+         /> 
+         
+        <CheckBoxPreference  
+             android:key="AutoKnock" 
+             android:summaryOn="Automatically knock when required"
+             android:summaryOff="Manually knock when required" 
+             android:title="Auto Knock"  
+             android:defaultValue="false" 
+         />         
+         
+         <ListPreference  
+             android:key="PlaySpeed" 
+             android:title="Play Speed" 
+             android:summary="Set Play Speed" 
+             android:defaultValue="0"  
+             android:entries="@array/playspeed" 
+             android:entryValues="@array/playspeedvalues" 
+         />
+ 
+  
+        <CheckBoxPreference  
+             android:key="PlaySounds" 
+             android:summaryOn="Sound effects on"
+             android:summaryOff="Sound effects off" 
+             android:title="Play Sounds"  
+             android:defaultValue="false" 
+         />         
+              
+
+     </PreferenceCategory>  
+
+    
+
+  
+
+        
+
+ </PreferenceScreen> 
+
+
+

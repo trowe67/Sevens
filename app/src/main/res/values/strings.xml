@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sevens</string>
+    <string name="menu_newgame">New Game</string>
+    <string name="menu_restart">Restart</string>
+    <string name="menu_stats">Scores</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_save_quit">Save&amp;Quit</string>
+    <string name="menu_quit">Quit</string>
+    <string name="sevens_layout_text_text"></string>
+    <string name="accept">Accept</string>
+    <string name="ok">OK</string>
+    <string name="decline">Decline</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear Scores</string>
+    <string name="sevens_options">Sevens Options</string>
+    <string name="display_options">Display Options</string>
+    <string name="normal_cards">Normal Cards</string>
+    <string name="big_cards">Large Cards</string>
+    <string name="auto_move">Auto Move</string>
+    <string name="always">Always</string>
+    <string name="fling_only">Fling Only</string>
+    <string name="never">Never</string>
+    <string name="display_time">Display Time</string>
+    <string name="west">West</string>
+    <string name="north">North</string>
+    <string name="east">East</string>
+    <string name="south">South (You)</string>
+    <string name="start_game">Click to start game</string>
+    <string name="start_card">You have the start card. Click to start.</string>
+    <string name="score_text">Score</string>
+    <string name="total_text">Total</string>
+    <string name="display_cards_playable">Raise Playable Cards</string>
+    <string name="auto_knock">Auto Knock</string>
+    <string name="play_speed">Play Speed</string> 
+    <string name="play_fast">Fast</string>
+    <string name="play_medium">Medium</string>
+    <string name="play_slow">Slow</string>
+    <string name="play_sounds">Play Sounds</string>
+    <string name="OK">OK</string>
+    <string name="help_text">
+Objective:\n
+To get rid of all your dealt cards.\n\n
+The Play:\n
+The 7 of Hearts starts.
+The 6 or 8 of a suit can be played on the 7 of that suit, or a 7 of another suit can be played, thereby opening up more options for the next player.\n
+If a player can not go, he is said to be knocking and the next player has a go.\n
+The values increase/decrease from the 8/6 respectively. The order of the cards is\n
+Ace,2,3,4,5,6,7,8,9,10,Jack,Queen,King.\n\n
+Playing a Card:\n
+Tap the card selected. All playable cards are raised in the hand.\n\n
+Scoring:\n
+The lowest score is the winner.The play who gets rid of all the cards gets 0 for that hand.\n
+The score for the other players is based on the sum of the values of the remaining cards,\n
+ A,J,Q,K are worth 10.
+</string>
+    <string name="win_text">You Win!\n\nUse the menu to start a new game.</string>    
+</resources>

@@ -1,0 +1,4 @@
+#Tue Nov 27 15:08:29 AEDT 2018
+base.0=C\:\\Users\\rowa\\AndroidStudioProjects\\Sevens\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

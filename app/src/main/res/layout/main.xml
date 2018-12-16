@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+  <com.tony.sevens.SevensView
+      android:id="@+id/sevens"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
+  
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <TextView
+          android:id="@+id/text"
+          android:text="@string/sevens_layout_text_text"
+          android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          />
+     </RelativeLayout>
+
+</FrameLayout>
